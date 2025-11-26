@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Databricks CLI
-        uses: databricks/setup-cli@main
+        uses: databricks/setup-cli@feat-gh52-turku
 
       - name: Deploy bundle
         run: databricks repos update /Workspace/Users/embu@ewii.com/databricks-dataops-course --branch feat-gh52-turku
@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Databricks CLI
-        uses: databricks/setup-cli@main
+        uses: databricks/setup-cli@feat-gh52-turku
 
       - name: Run bundle
         run: databricks jobs submit --json @deploy/deploy_job.json
