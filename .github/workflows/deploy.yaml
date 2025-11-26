@@ -19,8 +19,8 @@ jobs:
       - name: Deploy bundle
         run: databricks repos update /Users/embu@ewii.com/databricks-dataops-course --branch feat-gh52-turku
         env:
-          DATABRICKS_TOKEN: ${{secrets.DATABRICKS_TOKEN}}
-          DATABRICKS_HOST: ${{secrets.DATABRICKS_HOST }}
+          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+          DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
 
   run:
     name: "Run one time job to update all jobs in datamesh"
