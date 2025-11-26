@@ -46,7 +46,7 @@
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC
+# MAGIC My guess is job is the config while the run is the execution
 # MAGIC Answer here...
 
 # COMMAND ----------
@@ -60,4 +60,8 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC projectname_test_user_branch_runid?
+
+# COMMAND ----------
+
+
